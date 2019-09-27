@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_thrads_Demo", "WF_thrads_Demo\WF_thrads_Demo.csproj", "{4DC52F9B-E4A3-457D-A107-F8B88DBF006D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC52F9B-E4A3-457D-A107-F8B88DBF006D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC52F9B-E4A3-457D-A107-F8B88DBF006D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC52F9B-E4A3-457D-A107-F8B88DBF006D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC52F9B-E4A3-457D-A107-F8B88DBF006D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721DF3D7-2B70-4472-BEAC-C3DE6DF1B369}
+	EndGlobalSection
+EndGlobal
