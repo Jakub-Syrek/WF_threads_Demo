@@ -39,12 +39,12 @@
             this.tb_Console.Multiline = true;
             this.tb_Console.Name = "tb_Console";
             this.tb_Console.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Console.Size = new System.Drawing.Size(288, 275);
+            this.tb_Console.Size = new System.Drawing.Size(1368, 709);
             this.tb_Console.TabIndex = 0;
             // 
             // Bt_ThreadStart
             // 
-            this.Bt_ThreadStart.Location = new System.Drawing.Point(36, 310);
+            this.Bt_ThreadStart.Location = new System.Drawing.Point(609, 744);
             this.Bt_ThreadStart.Name = "Bt_ThreadStart";
             this.Bt_ThreadStart.Size = new System.Drawing.Size(115, 23);
             this.Bt_ThreadStart.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // Bt_ThreadStartPooled
             // 
-            this.Bt_ThreadStartPooled.Location = new System.Drawing.Point(157, 310);
+            this.Bt_ThreadStartPooled.Location = new System.Drawing.Point(730, 744);
             this.Bt_ThreadStartPooled.Name = "Bt_ThreadStartPooled";
             this.Bt_ThreadStartPooled.Size = new System.Drawing.Size(167, 23);
             this.Bt_ThreadStartPooled.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(361, 349);
+            this.ClientSize = new System.Drawing.Size(1416, 768);
             this.Controls.Add(this.Bt_ThreadStartPooled);
             this.Controls.Add(this.Bt_ThreadStart);
             this.Controls.Add(this.tb_Console);

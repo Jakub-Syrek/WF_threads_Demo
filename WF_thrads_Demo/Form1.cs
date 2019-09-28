@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Numerics;
 namespace WF_thrads_Demo
 {
     public partial class Form1 : Form
@@ -43,7 +43,7 @@ namespace WF_thrads_Demo
             for (int i = 0; i < FibonacciCalculations; i++)
             {
                 doneEvents[i] = new ManualResetEvent(false);
-                list.Add(new Fibonacci(Convert.ToUInt64(rand.Next(20, 10000)), doneEvents[i]));
+                list.Add(new Fibonacci(rand.Next(90000, 150000), doneEvents[i]));
                 fibArray[i] = list[i];
                 ThreadPool.QueueUserWorkItem(list[i].ThreadPoolCallback, i);
                 
